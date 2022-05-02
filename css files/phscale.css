@@ -1,13 +1,15 @@
 h2 {
     background-color: rgb(255, 255, 255);
     color: rgb(25, 4, 75);
+    padding: 20px;
 }
 body{
     background-color: rgb(108, 108, 108);
 }
 p {
     width: auto;
-    padding: 0%;
+    padding: 20px;
+    margin: 0px;
 }
 #h1 {
     background-color: #EE1C25;
