@@ -2,6 +2,13 @@ h2 {
     background-color: rgb(255, 255, 255);
     color: rgb(25, 4, 75);
 }
+body{
+    background-color: rgb(108, 108, 108);
+}
+p {
+    width: auto;
+    padding: 0%;
+}
 #h1 {
     background-color: #EE1C25;
     color: white;
