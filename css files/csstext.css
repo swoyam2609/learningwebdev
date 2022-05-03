@@ -11,6 +11,10 @@ h1.Briads {
 .Briads {
   color: rgb(0, 104, 104);
 }
+#desc {
+  font-weight: 500;
+  color: rgb(0, 104, 104);
+}
 p.desc {
   color: rgb(0, 104, 104);
 }
@@ -25,12 +29,12 @@ p.author {
   font-weight: bolder;
   font-style: italic;
 }
-#name::first-letter{
-    font-size: 200%;
+#name::first-letter {
+  font-size: 200%;
 }
-h3.Briads{
-    font-size: 40px;
+h3.Briads {
+  font-size: 40px;
 }
 #S {
-    font-size: 50px;
+  font-size: 50px;
 }
