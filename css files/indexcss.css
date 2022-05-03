@@ -1,0 +1,35 @@
+body {
+    font-size: 40px;
+}
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: bolder;
+}
+li {
+    line-height: 42px;
+}
+a:link {
+    /* This is how a normal link would look like */
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    /* This is how a link would look like when a user hovers over it */
+    color: rgb(50, 1, 50);
+    text-decoration: underline;
+}
+a:visited {
+    /* This is how a link that has bee previously visited would be shown */
+    color: orange;
+    text-decoration: none;
+}
+a:active{
+    /* this is how a link that have been activated now would be shown */
+    color: brown;
+    text-decoration: none;
+}
+li>h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
