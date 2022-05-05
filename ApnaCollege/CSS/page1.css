@@ -1,0 +1,17 @@
+body {
+    background-color: chartreuse;
+}
+p, a {
+    color: green;
+}
+
+li {
+    list-style-type: square;
+}
+.special {
+    color: orange;
+    font-weight: 500;
+}
+p:hover,h1:hover {
+    background-color: aqua;
+}
