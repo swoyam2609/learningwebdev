@@ -11,7 +11,7 @@ body {
 #college {
   left: 10px;
   right: 10px;
-  max-width: 100%;
+  width: 100%;
   z-index: -1;
 }
 img.id {
@@ -22,7 +22,7 @@ img.id {
   top: 25%;
   z-index: 0;
 }
-.name{
+.name {
   margin-left: 12px;
 }
 h2.name {
@@ -34,4 +34,14 @@ h3.name {
   color: white;
   margin-top: 7px;
   margin-bottom: 7px;
+}
+div.rectangle {
+  position: absolute;
+  width: 442px;
+  height: 457px;
+
+
+  background: rgba(1, 0, 53, 0.47);
+  border: 1px solid #ffffff;
+  border-radius: 15px;
 }
