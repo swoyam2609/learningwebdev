@@ -29,19 +29,37 @@ h2.name {
   color: white;
   margin-top: 7px;
   margin-bottom: 7px;
+  font-size: 40px;
+  font-weight: 1300;
+  letter-spacing: 3px;
+  word-spacing: 7px;
 }
 h3.name {
   color: white;
   margin-top: 7px;
-  margin-bottom: 7px;
+  margin-bottom: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
 }
-div.rectangle {
-  position: absolute;
-  width: 442px;
-  height: 457px;
+#rectangle1 {
+  box-sizing: border-box;
 
+  position: absolute;
+  width: fit-content;
+  height: fit-content;
 
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
+}
+#badges {
+  word-spacing: 5px;
+}
+p.box_heading {
+  margin: 10px;
+  color: gold;
+  font-family: googlefonts;
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 5px;
 }
