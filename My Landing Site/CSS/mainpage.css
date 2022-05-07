@@ -39,10 +39,12 @@ h3.name {
   margin-top: 7px;
   margin-bottom: 15px;
   font-size: 30px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 #rectangle1 {
   box-sizing: border-box;
+  display: inline-table;
 
   position: relative;
   width: fit-content;
@@ -71,6 +73,7 @@ p.social {
 }
 #rectangle2 {
   box-sizing: border-box;
+  display: inline-table;
 
   position: relative;
   width: fit-content;
@@ -79,4 +82,27 @@ p.social {
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
+}
+#rectangle3 {
+  box-sizing: border-box;
+  display: inline-table;
+
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  background: rgba(1, 0, 53, 0.47);
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+}
+#elements {
+  text-align: center;
+}
+p.position {
+  margin: 10px;
+  color: yellow;
+}
+p.position_content {
+  color: aqua;
+  margin: 10px;
 }
