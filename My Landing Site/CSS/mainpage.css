@@ -44,7 +44,7 @@ h3.name {
 #rectangle1 {
   box-sizing: border-box;
 
-  position: absolute;
+  position: relative;
   width: fit-content;
   height: fit-content;
 
@@ -62,4 +62,21 @@ p.box_heading {
   font-weight: bold;
   font-size: 30px;
   margin-bottom: 5px;
+}
+img.social {
+  max-height: 60px;
+}
+p.social {
+  text-align: center;
+}
+#rectangle2 {
+  box-sizing: border-box;
+
+  position: relative;
+  width: fit-content;
+  height: fit-content;
+
+  background: rgba(1, 0, 53, 0.47);
+  border: 1px solid #ffffff;
+  border-radius: 15px;
 }
