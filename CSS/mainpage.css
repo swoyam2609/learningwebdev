@@ -27,7 +27,7 @@ img.id {
   left: 77%;
   right: 3%;
   width: 20%;
-  top: 45%;
+  top: 40%;
   z-index: 0;
 }
 .name {
@@ -59,21 +59,16 @@ h3.name {
   align-items: center;
   box-sizing: border-box;
   display: inline-table;
-
+  flex: 1 1 30%;
   position: relative;
-  width: fit-content;
+  max-width: 30%;
   height: fit-content;
 
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
 }
-#badges {
-  word-spacing: 3px;
-  width: 90%;
-  height: auto;
-  
-}
+
 p.box_heading {
   margin: 10px;
   color: gold;
