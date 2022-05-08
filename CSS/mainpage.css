@@ -103,6 +103,7 @@ p.social {
 }
 #rectangle4 {
   text-align: center;
+  display: inline-table;
   align-items: center;
   box-sizing: border-box;
   position: absolute;
@@ -120,6 +121,7 @@ p.social {
 #rectangle5 {
   text-align: center;
   align-items: center;
+  display: inline-table;
   box-sizing: border-box;
   position: absolute;
   z-index: 2;
