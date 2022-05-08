@@ -39,11 +39,11 @@ h2.name {
 }
 h3.name {
   color: white;
-  margin-top: 7px;
+  margin-top: 3px;
   margin-bottom: 15px;
-  font-size: 30px;
-  letter-spacing: 1px;
-  font-weight: 500;
+  font-size: 27px;
+  letter-spacing: 0px;
+  font-weight: 100;
   text-align: left;
 }
 #rectangle1 {
