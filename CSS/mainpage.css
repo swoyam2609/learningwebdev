@@ -10,6 +10,21 @@ body {
 * {
   font-family: googlefonts;
 }
+@media screen and (max-width: 650px){
+  body{
+    text-align: center;
+    align-items: center;
+  }
+  img.id{
+    position: absolute;
+    align-self: center;
+    left: auto;
+    right: auto;
+  }
+}
+div.collegeandid{
+  position: relative;
+}
 #college {
   left: 10px;
   right: 10px;
@@ -21,27 +36,29 @@ img.id {
   left: 77%;
   right: 3%;
   width: 20%;
-  top: 25%;
+  top: 45%;
   z-index: 0;
 }
 .name {
   margin-left: 12px;
 }
 h2.name {
+  position: relative;
   color: white;
   margin-top: 7px;
   margin-bottom: 7px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 1300;
   letter-spacing: 3px;
   word-spacing: 7px;
   text-align: left;
 }
 h3.name {
+  position: relative;
   color: white;
   margin-top: 3px;
   margin-bottom: 15px;
-  font-size: 27px;
+  font-size: 18px;
   letter-spacing: 0px;
   font-weight: 100;
   text-align: left;
