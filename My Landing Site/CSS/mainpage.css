@@ -4,6 +4,7 @@
 }
 body {
   background: #041c32;
+  text-align: center;
   
 }
 * {
@@ -101,12 +102,14 @@ p.social {
   text-align: left;
 }
 #rectangle4 {
+  text-align: center;
+  align-items: center;
   box-sizing: border-box;
   position: absolute;
   z-index: 2;
   top: 670px;
   width: 380px;
-  left: 8px;
+  left: 15px;
   height: fit-content;
 
   background: rgba(1, 0, 53, 0.47);
@@ -138,4 +141,21 @@ p.position_tenure {
   margin-left: 10px;
   font-weight: 500;
   font-size: 15px;
+}
+img.certificate {
+  width: 370px;
+  margin: 4px;
+  height: auto;
+  padding: 0px;
+  margin-bottom: 0px;
+  margin-top: 1px;
+  border-radius: 10px;
+}
+img.badges:hover, img.social:hover{
+  transform: scale(1.2);
+  transition: all .5s ease-in-out;
+}
+img.certificate:hover {
+  transform: scale(1.05);
+  transition: all .5s ease-in-out;
 }
