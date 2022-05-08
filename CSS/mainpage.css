@@ -5,25 +5,16 @@
 body {
   background: #041c32;
   text-align: center;
-  
 }
 * {
   font-family: googlefonts;
 }
-@media screen and (max-width: 650px){
-  body{
-    text-align: center;
-    align-items: center;
-  }
-  img.id{
-    position: absolute;
-    align-self: center;
-    left: auto;
-    right: auto;
-  }
-}
-div.collegeandid{
+div.collegeandid {
   position: relative;
+}
+div {
+  margin-top: 10px;
+  margin: 5px;
 }
 #college {
   left: 10px;
@@ -64,11 +55,13 @@ h3.name {
   text-align: left;
 }
 #rectangle1 {
+  text-align: center;
+  align-items: center;
   box-sizing: border-box;
   display: inline-table;
 
   position: relative;
-  width: 380px;
+  width: fit-content;
   height: fit-content;
 
   background: rgba(1, 0, 53, 0.47);
@@ -77,6 +70,9 @@ h3.name {
 }
 #badges {
   word-spacing: 3px;
+  width: 90%;
+  height: auto;
+  
 }
 p.box_heading {
   margin: 10px;
@@ -96,7 +92,7 @@ p.social {
 #rectangle2 {
   box-sizing: border-box;
   display: inline-table;
-
+  flex: 1 1 262px;
   position: relative;
   width: fit-content;
   height: fit-content;
@@ -110,9 +106,9 @@ p.social {
   display: inline-table;
 
   position: relative;
-  width: 50%;
-  height: fit-content;
 
+  height: fit-content;
+  flex: 1 1 50%;
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
@@ -124,14 +120,11 @@ p.social {
   display: inline-table;
   align-items: center;
   box-sizing: border-box;
-  position: absolute;
-  width: 380px;
   height: fit-content;
-  left: 15px;
+  flex: 1 1 380px;
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
-  text-align: left;
 }
 #rectangle5 {
   position: relative;
@@ -139,10 +132,9 @@ p.social {
   align-items: center;
   display: inline-table;
   box-sizing: border-box;
-  position: absolute;
-  width: 264px;
+
   height: fit-content;
-  right: 15px;
+  flex: 1 1 364px;
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
@@ -182,20 +174,26 @@ img.certificate {
   margin-top: 1px;
   border-radius: 10px;
 }
-img.badges:hover, img.social:hover{
+img.badges:hover,
+img.social:hover {
   transform: scale(1.2);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 img.certificate:hover {
   transform: scale(1.05);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
-img, #uiux {
-  transition: all .4s ease-in-out;
+img.badges{
+  height: 123px;
+  width: 123px;
+}
+img,
+#uiux {
+  transition: all 0.4s ease-in-out;
 }
 #uiux:hover {
   transform: scale(1.02);
-  transition: all .4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 #uiux {
   width: 250px;
@@ -205,4 +203,10 @@ img, #uiux {
   border-color: rgb(122, 122, 122);
   border-width: 1px;
   border-style: solid;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
