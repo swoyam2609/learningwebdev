@@ -102,34 +102,30 @@ p.social {
   text-align: left;
 }
 #rectangle4 {
+  position: relative;
   text-align: center;
   display: inline-table;
   align-items: center;
   box-sizing: border-box;
   position: absolute;
-  z-index: 2;
-  top: 670px;
   width: 380px;
-  left: 15px;
   height: fit-content;
-
+  left: 15px;
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
   text-align: left;
 }
 #rectangle5 {
+  position: relative;
   text-align: center;
   align-items: center;
   display: inline-table;
   box-sizing: border-box;
   position: absolute;
-  z-index: 2;
-  top: 603px;
   width: 264px;
-  right: 15px;
   height: fit-content;
-
+  right: 15px;
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
