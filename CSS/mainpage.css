@@ -131,7 +131,7 @@ p.social {
   background: rgba(1, 0, 53, 0.47);
   border: 1px solid #ffffff;
   border-radius: 15px;
-  text-align: left;
+  text-align: center;
 }
 #elements {
   text-align: center;
@@ -183,11 +183,11 @@ img, #uiux {
   transition: all .4s ease-in-out;
 }
 #uiux {
-  margin: 6px;
   width: 250px;
   height: auto;
   border-radius: 10px;
   margin-bottom: 2px;
-  border-color: white;
-  border-width: 10px;
+  border-color: rgb(122, 122, 122);
+  border-width: 1px;
+  border-style: solid;
 }
