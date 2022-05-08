@@ -117,6 +117,22 @@ p.social {
   border-radius: 15px;
   text-align: left;
 }
+#rectangle5 {
+  text-align: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  top: 603px;
+  width: 264px;
+  right: 15px;
+  height: fit-content;
+
+  background: rgba(1, 0, 53, 0.47);
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  text-align: left;
+}
 #elements {
   text-align: center;
 }
@@ -153,9 +169,25 @@ img.certificate {
 }
 img.badges:hover, img.social:hover{
   transform: scale(1.2);
-  transition: all .5s ease-in-out;
+  transition: all .3s ease-in-out;
 }
 img.certificate:hover {
   transform: scale(1.05);
-  transition: all .5s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+img, #uiux {
+  transition: all .4s ease-in-out;
+}
+#uiux:hover {
+  transform: scale(1.02);
+  transition: all .4s ease-in-out;
+}
+#uiux {
+  margin: 6px;
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  border-color: white;
+  border-width: 10px;
 }
