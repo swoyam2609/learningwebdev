@@ -1,0 +1,90 @@
+@font-face {
+    font-family: poppins;
+    src: url(/Assets/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: poppins-bold;
+    src: url(/Assets/Poppins/Poppins-Bold.ttf);
+}
+
+* {
+    font-family: poppins;
+    transition: all 0.2s ease-in-out;
+}
+
+body {
+    margin: 0;
+}
+
+img.homebg {
+    width: 100% ;
+    position: relative;
+    z-index: -2;
+}
+
+img.logoonpage {
+    width: 10%;
+    left: 7%;
+    position: absolute;
+}
+
+img.scroll {
+    width: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 43%;
+}
+
+img.booknow {
+    width: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 74%;
+}
+
+img.booknow:hover{
+    transform: scale(1.08);
+    transition: all 0.8s ease-in-out ;
+}
+
+img.scroll:hover {
+    transform: scale(1.08);
+    transition: all 0.2s ease-in-out ;
+}
+
+ul.navbar {
+    text-align: end;
+    width: 70%;
+    padding: 0;
+    position: absolute;
+    right: 7%;
+    top: 0%;
+    margin: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 3%;
+    font-family: poppins-bold;
+    color: white;
+    font-size: 18px;
+}
+
+li:hover {
+    text-decoration: underline;
+    transform: scale(1.18);
+    transition: all .8s ease;
+}
+
+div.welcome {
+    left: 7%;
+    position: absolute;
+    top: 20%;
+}
